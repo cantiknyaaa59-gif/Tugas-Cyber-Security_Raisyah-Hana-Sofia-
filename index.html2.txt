@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Shopee - Simulasi Edukasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="login-container">
+            <div class="login-card">
+                <div class="card-header">
+                    <h2>Log In</h2>
+                </div>
+                
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="No. Handphone/Username/Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    
+                    <button type="submit" class="btn-login">LOG IN</button>
+                    
+                    <div class="form-footer">
+                        <a href="#">Lupa Password</a>
+                        <a href="#">Login dengan No. HP</a>
+                    </div>
+
+                    <div class="separator">
+                        <span>ATAU</span>
+                    </div>
+
+                    <div class="social-login">
+                        <button type="button" class="btn-social google">Google</button>
+                        <button type="button" class="btn-social facebook">Facebook</button>
+                    </div>
+                </form>
+
+                <div class="register-link">
+                    Baru di Shopee? <a href="#">Daftar</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="security-footer">
+            <div class="warning-box">
+                <p>⚠️ <strong>PERINGATAN KEAMANAN:</strong> Halaman ini adalah <strong>simulasi edukasi keamanan cyber</strong>. Selalu perhatikan URL di address bar browser Anda sebelum memasukkan data sensitif. Jangan pernah memasukkan kata sandi asli Anda di situs yang mencurigakan.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
